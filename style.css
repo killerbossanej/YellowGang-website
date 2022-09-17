@@ -47,7 +47,10 @@ nav ul li a{
 
 }
 
-.content{
+ul li :hover{
+  color:black;
+}
+  .content{
 
   text-align:center;
 }
