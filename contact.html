@@ -1,22 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
-    <title>Yellow Gang</title>
-    <link rel="stylesheet" href="style.css">
-   </head>
-    <body>
-     <div class="hero">
-        <nav>
-          <img src="images/bee-icon-honey-vector-28170858.jpg"  class="logo" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaming Studio</title>
+    <link rel="stylesheet" href="style.css" />
+   
+  </head>
+  <body>
+    <header>
+      <div id="brand"><a href="/">YGgamingS</a></div>
+      <nav>
+       <ul>
+          <li><a href="index.html">HOME</a></li> 
+          <li><a href="profile.html">PROFILE</a></li> 
+          <li><a href="contact.html">CONTACTS</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li id="login"><a href="login.html">Login</a></li>
+          <li id="signup"><a href="signup.html">Signup</a></li>
+        </ul>
+    </nav>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a href="index.html">HOME</a></li> 
+        <li><a href="profile.html">PROFILE</a></li> 
+        <li><a href="contact.html">CONTACTS</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+        <li id="login"><a href="login.html">Login</a></li>
+        <li id="signup"><a href="signup.html">Signup</a>
+      </ul>
+    </div>
+    </header>
+  <script src="index.js"></script>
+   </body>
+   </html>
 
-          
-  <ul>
-            <li><a href="index.html">HOME</a></li> 
-            <li><a href="profile.html">PROFILE</a></li> 
-            <li><a href="contact.html">CONTACT</a></li>
-            <li><a href="About.html">ABOUT</a></li>
-          </ul>
-          </nav>
-         </div> 
-        </body>
+        
